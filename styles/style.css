@@ -33,10 +33,10 @@
 .loader-wrapper .wrap {
   letter-spacing: -4px;
   transform: translateX(60%);
-  -webkit-animation: come 3.2s linear forwards;
-          animation: come 3.2s linear forwards;
-  -webkit-animation-timing-function: cubic-bezier(-2, 0, 0, 0.1);
-          animation-timing-function: cubic-bezier(-2, 0, 0, 0.1);
+  -webkit-animation: come 3.7s forwards;
+          animation: come 3.7s forwards;
+  -webkit-animation-timing-function: cubic-bezier(-2, 0, 0.2, 0.1);
+          animation-timing-function: cubic-bezier(-2, 0, 0.2, 0.1);
 }
 @media screen and (max-width: 501px) {
   .loader-wrapper .wrap {
@@ -356,12 +356,12 @@
 }
 @-webkit-keyframes come {
   to {
-    transform: translateX(40%);
+    transform: translateX(35%);
   }
 }
 @keyframes come {
   to {
-    transform: translateX(40%);
+    transform: translateX(35%);
   }
 }
 * {

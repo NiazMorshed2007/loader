@@ -29,10 +29,10 @@
     .wrap {
         letter-spacing: -4px;
         transform: translateX(60%);
-        animation: come 3.2s linear forwards;
+        animation: come 3.7s forwards;
         // animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
         // animation-timing-function: cubic-bezier(0.22, 0.685, 0.03, 0.295);
-        animation-timing-function: cubic-bezier(-2, 0, 0, .1);
+        animation-timing-function: cubic-bezier(-2, 0, .2, .1);
         @include mobile {
             transform: translateX(0px);
         }
@@ -211,6 +211,6 @@
 
 @keyframes come {
     to {
-        transform: translateX(40%);
+        transform: translateX(35%);
     }
 }
