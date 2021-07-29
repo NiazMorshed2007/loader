@@ -73,8 +73,8 @@
   margin-bottom: 10px;
   position: relative;
   transform: translateX(350px);
-  -webkit-animation: firstLine1 1.5s linear forwards;
-          animation: firstLine1 1.5s linear forwards;
+  -webkit-animation: firstLine1 1s linear forwards;
+          animation: firstLine1 1s linear forwards;
 }
 @media screen and (max-width: 501px) {
   .loader-wrapper .wrap .first-line {
@@ -148,8 +148,8 @@
   flex-direction: row;
   gap: 0.7em;
   transform: translateX(550px);
-  -webkit-animation: secondLine 1.45s linear forwards;
-          animation: secondLine 1.45s linear forwards;
+  -webkit-animation: secondLine 1.25s linear forwards;
+          animation: secondLine 1.25s linear forwards;
 }
 @media screen and (max-width: 501px) {
   .loader-wrapper .wrap .second-line {

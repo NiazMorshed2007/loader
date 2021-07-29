@@ -19,4 +19,4 @@ function fu() {
     }
 }
 
-setInterval(fu, 3000);
+setInterval(fu, 2700);
